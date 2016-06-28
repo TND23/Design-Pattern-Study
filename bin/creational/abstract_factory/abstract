@@ -1,0 +1,17 @@
+Highest level explanation of a factory:
+Caller tells factory to create object.
+
+High level:
+Caller communicates with factory, which then returns an implementation I of abstract class K.
+
+Mid level:
+An abstract factory defines the interface for all concrete factories that implement it.
+These concrete factories implements the interface to create concrete objects, which are themselves implementations of one or more
+abstract classes.
+
+
+
+Useful if the system should not care about the objects are created or represented.
+Hiding implementation details from a client and exposing only the interface.
+
+ 
